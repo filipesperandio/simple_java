@@ -1,11 +1,12 @@
 ---
 engines:
-  pmd:
+  fixme:
     enabled: true
-    channel: beta
-  checkstyle:
-    enabled: true
-    channel: beta
 ratings:
   paths: []
-exclude_paths: []
+include_paths:
+  - src/
+exclude_paths:
+  - gradle/
+  - .gradle/
+
