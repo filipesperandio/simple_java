@@ -17,6 +17,12 @@ public class Library {
 			for (int k = 0; k < 20; i++) {		// references both 'i' and 'k'
 				System.out.println("Hello");
 			}
+			for (int k = 0; k < 20; i++) {		// references both 'i' and 'k'
+				System.out.println("Hello");
+			}
+			for (int k = 0; k < 20; i++) {		// references both 'i' and 'k'
+				System.out.println("Hello");
+			}
 		}
 	}
 }
