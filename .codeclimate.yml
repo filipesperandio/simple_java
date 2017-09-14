@@ -6,7 +6,7 @@ engines:
     enabled: true
     channel: beta
     config:
-      file: rule.xml
+      file: invalid-rule.xml
 ratings:
   paths: []
 include_paths:
