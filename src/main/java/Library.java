@@ -3,8 +3,8 @@
  */
 // FIXME
 public class Library {
-    public boolean someLibraryMethod() {
-    }
+  public static void main(String[] args) {
+  }
 
 	public void foo() {
 		for (int i = 0; i < 10; i++) {
