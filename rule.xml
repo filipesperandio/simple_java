@@ -31,8 +31,10 @@
     <rule ref="rulesets/java/unnecessary.xml"/>
     <rule ref="rulesets/java/unusedcode.xml"/>
 
+    <!--
     <rule ref="rulesets/java/coupling.xml">
       <property name="packages" value="[com, com.codeclimate]"/>
     </rule>
+    -->
 
 </ruleset>
