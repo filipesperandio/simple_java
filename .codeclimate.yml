@@ -2,6 +2,8 @@
 engines:
   fixme:
     enabled: true
+  pmd:
+    enabled: true
 ratings:
   paths: []
 include_paths:
