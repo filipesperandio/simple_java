@@ -1,0 +1,12 @@
+---
+engines:
+  sonar-java:
+    enabled: true
+ratings:
+  paths: []
+include_paths:
+  - src/
+exclude_paths:
+  - gradle/
+  - .gradle/
+
