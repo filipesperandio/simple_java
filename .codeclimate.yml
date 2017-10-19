@@ -1,7 +1,14 @@
 ---
 engines:
+  structure:
+    enabled: false
+  duplication:
+    enabled: false
   sonar-java:
     enabled: true
+    channel: beta
+    config:
+      minimum_severity: critical
 ratings:
   paths: []
 include_paths:
