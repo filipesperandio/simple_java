@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+cc-test-reporter before-build
+gradle test coberturaReport
+cp build/reports/cobertura/coverage.xml cobertura.xml
+cc-test-reporter after-build -t cobertura -r 302fff2ff523aaf50fc5e95e02072b0709c5de9f51e900111edc789479bda1cd -e http://localhost:4000/v1/test_reports

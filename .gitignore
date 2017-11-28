@@ -1,2 +1,7 @@
+*.gem
+coverage
+spec/reports
+base_rubocop.yml
+cobertura.xml
 build
-.gradle/
+.gradle
