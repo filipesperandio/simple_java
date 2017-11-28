@@ -8,6 +8,17 @@
 
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
+buildscript {
+    repositories {
+        mavenCentral()
+        // The next repo is only needed while using SNAPSHOT versions
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    }
+    dependencies {
+        classpath "net.saliman:gradle-cobertura-plugin:2.5.2"
+    }
+}
+apply plugin: 'net.saliman.cobertura'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -25,5 +36,10 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    testRuntime "org.slf4j:slf4j-api:1.7.10"
 }
 
+
+cobertura {
+  coverageFormats = ["xml"]
+}
