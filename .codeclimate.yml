@@ -1,7 +1,5 @@
 ---
 engines:
-  fixme:
-    enabled: true
   sonar-java:
     enabled: true
 ratings:
