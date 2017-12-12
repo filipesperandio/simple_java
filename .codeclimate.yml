@@ -1,12 +1,9 @@
 ---
 engines:
   fixme:
-    enabled: true
+    enabled: false
   pmd:
     enabled: true
-    channel: beta
-    config:
-      file: rule.xml
 ratings:
   paths: []
 include_paths:
