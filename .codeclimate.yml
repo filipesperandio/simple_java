@@ -1,6 +1,12 @@
 ---
 engines:
   sonar-java:
+    enabled: false
+  fixme:
+    enabled: false
+  duplication:
+    enabled: false
+  pmd:
     enabled: true
 ratings:
   paths: []
