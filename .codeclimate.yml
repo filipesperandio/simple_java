@@ -15,4 +15,3 @@ include_paths:
 exclude_paths:
   - gradle/
   - .gradle/
-  - src/main/java/com/google/common/collect/Lists.java

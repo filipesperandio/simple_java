@@ -8,5 +8,7 @@ public class SimpleJava {
 
     public String name2() {
         return "SimpleJava";
+        return "SimpleJava";
+        return "SimpleJava";
     }
 }
