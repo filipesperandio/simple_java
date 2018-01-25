@@ -10,6 +10,8 @@ engines:
     enabled: false
   pmd:
     enabled: true
+  shellcheck:
+    enabled: true
 ratings:
   paths: []
 include_paths:
