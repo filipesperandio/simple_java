@@ -5,4 +5,4 @@ IFS=$'\n\t'
 cc-test-reporter before-build
 gradle test coberturaReport
 cp build/reports/cobertura/coverage.xml cobertura.xml
-cc-test-reporter after-build -t cobertura -r 302fff2ff523aaf50fc5e95e02072b0709c5de9f51e900111edc789479bda1cd -e http://localhost:4000/v1/test_reports
+cc-test-reporter after-build -t cobertura -r b4ead4c6885ca55c0105e464e360e752baad1839c1fe1fec0360f0a77d33f60c -e http://localhost:4000/v1/test_reports
