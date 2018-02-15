@@ -1,7 +1,12 @@
 *.gem
+*.iml
+*.ipr
+*.iws
+.build
+.gradle
+.gradle/
+base_rubocop.yml
+build
+cobertura.xml
 coverage
 spec/reports
-base_rubocop.yml
-cobertura.xml
-build
-.gradle

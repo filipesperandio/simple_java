@@ -1,8 +1,18 @@
 ---
 engines:
+  sonar-java:
+    enabled: false
   fixme:
     enabled: false
   pmd:
+    enabled: true
+  duplication:
+    enabled: false
+  structure:
+    enabled: false
+  pmd:
+    enabled: true
+  shellcheck:
     enabled: true
 ratings:
   paths: []

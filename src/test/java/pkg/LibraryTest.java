@@ -10,6 +10,7 @@ public class LibraryTest {
 
     @Test public void testSomeLibraryMethod() {
         Library.main(args);
+        new Library().bar();
         assertTrue("someLibraryMethod should return 'true'", true);
     }
 }
