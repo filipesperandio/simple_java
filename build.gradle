@@ -44,3 +44,4 @@ cobertura {
   coverageFormats = ["xml", "html"]
   coverageExcludes = ['.*net.saliman.someapp.logger.*', '.*com.google.*', 'filipesperandio']
 }
+
