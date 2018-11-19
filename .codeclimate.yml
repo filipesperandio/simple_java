@@ -4,6 +4,8 @@ engines:
     enabled: false
   fixme:
     enabled: false
+  pmd:
+    enabled: true
   duplication:
     enabled: false
   structure:
